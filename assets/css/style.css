@@ -104,51 +104,57 @@ li {
   margin: 0 auto;
 }
 /*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
-
-/*=================================
   main styling starts here
 =================================*/
+body { background-color: #decba4; }
 
+span { display: block; }
 
+.counter div { margin: 10px 0; }
 
+.counter {
+  box-sizing: border-box;
+  width: 30%;
+  padding: 30px 0;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 5px 10px #000;  
+  text-align: center;
+  text-transform: uppercase; 
+}
 
+.title {
+  color: #fff;
+  font: bold 30px 'sans-serif';
+}
 
+.number {
+  margin: 25px 0;
+  color: #4ca62b;
+  font: bold 100px 'sans-serif'; 
+}
 
+input[type="button"] {
+  padding: 10px 3%;
+  border: none;
+  border-radius: 5px;
+  background-color: #3b579c;
+  box-shadow: 0px 3px 5px #000;
+  color: #fff;  
+  font-weight: bold;
+  text-transform: uppercase; 
+  transition: all 0.5s ease;
+  outline: none;
+}
 
-
+input[type="button"]:hover {
+  background-color: #526dda;
+  box-shadow: none
+}
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
